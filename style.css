@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #f4f4fc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+}
+
+main {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.seccion1, .seccion2 {
+    background-color: #fff;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    flex: 1 1 300px;
+    margin: 10px;
+}
+
+.caja_texto {
+    width: 100%;
+    height: 150px;
+    border: none;
+    background-color: #f4f4fc;
+    color: #0A3871;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 8px;
+    resize: none;
+}
+
+.caja_texto::placeholder {
+    color: #0A3871;
+}
+
+.alerta {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #495057;
+}
+
+.contenedor_botones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn_encriptar, .btn_desencriptar, .btn_copiar {
+    width: 48%;
+    height: 50px;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn_encriptar {
+    background-color: #0A3871;
+    color: white;
+    border: none;
+}
+
+.btn_encriptar:hover {
+    background-color: #082b55;
+}
+
+.btn_desencriptar, .btn_copiar {
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0a3871;
+}
+
+.btn_desencriptar:hover, .btn_copiar:hover {
+    background-color: #c4ccd6;
+}
+
+.contenedor_figura img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.contenedor_parrafo {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contenedor_parrafo h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #343A40;
+}
+
+.contenedor_parrafo p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #495057;
+    margin-top: 10px;
+}
+
+.contenedor_resultado {
+    margin-top: 20px;
+    height: auto;
+    min-height: 100px;
+}
+
+.contenedor_resultado p {
+    color: #495057;
+    font-size: 18px;
+    word-wrap: break-word;
+}
+
+.contenedor_copiar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.ocultar {
+    display: none;
+}
+
+
+
+
